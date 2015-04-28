@@ -1,0 +1,12 @@
+.main h1 {
+  font-size: 32px;
+}
+
+body {
+  background-image: url("losangeles.jpg");
+}
+
+.alex li {
+  display: inline;
+  padding-right: 25px;
+}

@@ -1,16 +1,16 @@
 var main = function() {
   $('.about').click(function() {
-    window.location.replace("http://a4quan.github.io/about");
+    window.location.replace("../about/index.html");
 
   });
 
   $('.resume').click(function() {
-    window.location.replace("http://a4quan.github.io/resume");
+    window.location.replace("../resume/index.html");
 
   });
 
   $('.contact').click(function() {
-    window.location.replace("http://a4quan.github.io/contact");
+    window.location.replace("../contact/index.html");
 
   });
 

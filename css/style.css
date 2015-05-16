@@ -1,18 +1,21 @@
+.main a:hover {
+  text-decoration: none;
+}
+
 .main h1 {
   text-transform: uppercase;
   font-size: 28px;
 }
 
 body {
-  background: url("background.jpg");
+  background: url("../assets/background.jpg");
 }
 
-.alex li {
-  display: inline;
-  padding-right: 25px;
+.name {
+  padding: 25px 40px;
 }
 
-.text p {
+.name p {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
@@ -21,7 +24,7 @@ body {
 } 
 
 .menu {
-  background: url("whitebackground.png") repeat left top;
+  background-color: #FFF;
   height: 100%;
   position: fixed;
   width: 300px;
@@ -46,13 +49,13 @@ body {
   padding-top: 3px;
 }
 
-.menu li:hover {
+.menu li a {
+  display: block;
+}
+.menu li:hover, .active {
   background-color: rgb(64,0,128);
 }
 
 .main p {
   padding-left: 300px;
-}
-.contact {
-  background-color: rgb(64,0,128);
 }
